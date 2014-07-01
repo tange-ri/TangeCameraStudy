@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0641E0841946FE81004B13A8 /* TCTestApiWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0641E0831946FE81004B13A8 /* TCTestApiWrapper.m */; };
+		0641E0851946FE81004B13A8 /* TCTestApiWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0641E0831946FE81004B13A8 /* TCTestApiWrapper.m */; };
+		0641E0881947EF3C004B13A8 /* IMG_0717.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0641E0861947EF3C004B13A8 /* IMG_0717.JPG */; };
+		0641E0891947EF3C004B13A8 /* IMG_0717.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0641E0861947EF3C004B13A8 /* IMG_0717.JPG */; };
+		0641E08A1947EF3C004B13A8 /* IMG_1840.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0641E0871947EF3C004B13A8 /* IMG_1840.JPG */; };
+		0641E08B1947EF3C004B13A8 /* IMG_1840.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0641E0871947EF3C004B13A8 /* IMG_1840.JPG */; };
+		0641E08D1947F06F004B13A8 /* aaa.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0641E08C1947F06F004B13A8 /* aaa.JPG */; };
+		0641E08E1947F06F004B13A8 /* aaa.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0641E08C1947F06F004B13A8 /* aaa.JPG */; };
+		0649011A19458D5900175C4C /* TCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0649011919458D5900175C4C /* TCImage.m */; };
+		0690299A194191DC00FDE487 /* TCDrawingWeatherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06902999194191DC00FDE487 /* TCDrawingWeatherFactory.m */; };
+		06A0BD28194435C300AB4483 /* TCTakingPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0BD27194435C300AB4483 /* TCTakingPictures.m */; };
+		06A0BD2B1944411500AB4483 /* TCSavingPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0BD2A1944411500AB4483 /* TCSavingPictures.m */; };
+		06BA966319401DE4003A49E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BA966219401DE4003A49E8 /* CoreLocation.framework */; };
+		06E0C78719415BB2001C5975 /* funa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06E0C78619415BB2001C5975 /* funa.jpg */; };
+		06E0C78C19415CE6001C5975 /* kf_readme.html in Resources */ = {isa = PBXBuildFile; fileRef = 06E0C78A19415CE6001C5975 /* kf_readme.html */; };
+		06E0C78D19415CE6001C5975 /* KFhimajiFACE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06E0C78B19415CE6001C5975 /* KFhimajiFACE.otf */; };
+		06ED837C194593DD0046EFAB /* TCAddWeatherText.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED837B194593DD0046EFAB /* TCAddWeatherText.m */; };
+		06EFC6F2193D6D9000271669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC6F1193D6D9000271669 /* Foundation.framework */; };
+		06EFC6F4193D6D9000271669 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC6F3193D6D9000271669 /* CoreGraphics.framework */; };
+		06EFC6F6193D6D9000271669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC6F5193D6D9000271669 /* UIKit.framework */; };
+		06EFC6FC193D6D9000271669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06EFC6FA193D6D9000271669 /* InfoPlist.strings */; };
+		06EFC6FE193D6D9000271669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC6FD193D6D9000271669 /* main.m */; };
+		06EFC702193D6D9000271669 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC701193D6D9000271669 /* TCAppDelegate.m */; };
+		06EFC705193D6D9000271669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EFC703193D6D9000271669 /* Main.storyboard */; };
+		06EFC708193D6D9000271669 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC707193D6D9000271669 /* TCViewController.m */; };
+		06EFC70A193D6D9000271669 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EFC709193D6D9000271669 /* Images.xcassets */; };
+		06EFC711193D6D9000271669 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC710193D6D9000271669 /* XCTest.framework */; };
+		06EFC712193D6D9000271669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC6F1193D6D9000271669 /* Foundation.framework */; };
+		06EFC713193D6D9000271669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EFC6F5193D6D9000271669 /* UIKit.framework */; };
+		06EFC71B193D6D9000271669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06EFC719193D6D9000271669 /* InfoPlist.strings */; };
+		06EFC71D193D6D9000271669 /* TangeCameraStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC71C193D6D9000271669 /* TangeCameraStudyTests.m */; };
+		06EFC730193D6EF000271669 /* TCDrawingWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC72F193D6EF000271669 /* TCDrawingWeather.m */; };
+		06EFC747193DBCFA00271669 /* TCWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC746193DBCFA00271669 /* TCWeather.m */; };
+		06EFC749193DBE5900271669 /* sayu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 06EFC748193DBE5900271669 /* sayu.jpeg */; };
+		06EFC74C193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EFC74B193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.m */; };
+		F706AC912A00485ABAAB86C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFD6E9B1E734A0D8A0C913E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06A0BD241944359300AB4483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06EFC6E6193D6D9000271669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06EFC6ED193D6D9000271669;
+			remoteInfo = TangeCameraStudy;
+		};
+		06EFC714193D6D9000271669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06EFC6E6193D6D9000271669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06EFC6ED193D6D9000271669;
+			remoteInfo = TangeCameraStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0641E0821946FE81004B13A8 /* TCTestApiWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTestApiWrapper.h; sourceTree = "<group>"; };
+		0641E0831946FE81004B13A8 /* TCTestApiWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTestApiWrapper.m; sourceTree = "<group>"; };
+		0641E0861947EF3C004B13A8 /* IMG_0717.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0717.JPG; sourceTree = "<group>"; };
+		0641E0871947EF3C004B13A8 /* IMG_1840.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1840.JPG; sourceTree = "<group>"; };
+		0641E08C1947F06F004B13A8 /* aaa.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aaa.JPG; sourceTree = "<group>"; };
+		0649011819458D5900175C4C /* TCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCImage.h; sourceTree = "<group>"; };
+		0649011919458D5900175C4C /* TCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImage.m; sourceTree = "<group>"; };
+		06902998194191DC00FDE487 /* TCDrawingWeatherFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDrawingWeatherFactory.h; sourceTree = "<group>"; };
+		06902999194191DC00FDE487 /* TCDrawingWeatherFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDrawingWeatherFactory.m; sourceTree = "<group>"; };
+		06A0BD26194435C300AB4483 /* TCTakingPictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTakingPictures.h; sourceTree = "<group>"; };
+		06A0BD27194435C300AB4483 /* TCTakingPictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTakingPictures.m; sourceTree = "<group>"; };
+		06A0BD291944411500AB4483 /* TCSavingPictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSavingPictures.h; sourceTree = "<group>"; };
+		06A0BD2A1944411500AB4483 /* TCSavingPictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSavingPictures.m; sourceTree = "<group>"; };
+		06BA966219401DE4003A49E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		06E0C78619415BB2001C5975 /* funa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = funa.jpg; sourceTree = "<group>"; };
+		06E0C78A19415CE6001C5975 /* kf_readme.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kf_readme.html; sourceTree = "<group>"; };
+		06E0C78B19415CE6001C5975 /* KFhimajiFACE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KFhimajiFACE.otf; sourceTree = "<group>"; };
+		06ED837A194593DD0046EFAB /* TCAddWeatherText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAddWeatherText.h; sourceTree = "<group>"; };
+		06ED837B194593DD0046EFAB /* TCAddWeatherText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAddWeatherText.m; sourceTree = "<group>"; };
+		06ED837D1945943F0046EFAB /* TCAddText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAddText.h; sourceTree = "<group>"; };
+		06ED839A1946DCB70046EFAB /* XCTest+asynk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest+asynk.h"; sourceTree = "<group>"; };
+		06EFC6EE193D6D9000271669 /* TangeCameraStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangeCameraStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EFC6F1193D6D9000271669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06EFC6F3193D6D9000271669 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06EFC6F5193D6D9000271669 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06EFC6F9193D6D9000271669 /* TangeCameraStudy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TangeCameraStudy-Info.plist"; sourceTree = "<group>"; };
+		06EFC6FB193D6D9000271669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06EFC6FD193D6D9000271669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06EFC6FF193D6D9000271669 /* TangeCameraStudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TangeCameraStudy-Prefix.pch"; sourceTree = "<group>"; };
+		06EFC700193D6D9000271669 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		06EFC701193D6D9000271669 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		06EFC704193D6D9000271669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06EFC706193D6D9000271669 /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		06EFC707193D6D9000271669 /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		06EFC709193D6D9000271669 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06EFC70F193D6D9000271669 /* TangeCameraStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangeCameraStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EFC710193D6D9000271669 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		06EFC718193D6D9000271669 /* TangeCameraStudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TangeCameraStudyTests-Info.plist"; sourceTree = "<group>"; };
+		06EFC71A193D6D9000271669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06EFC71C193D6D9000271669 /* TangeCameraStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangeCameraStudyTests.m; sourceTree = "<group>"; };
+		06EFC72E193D6EF000271669 /* TCDrawingWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDrawingWeather.h; sourceTree = "<group>"; };
+		06EFC72F193D6EF000271669 /* TCDrawingWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDrawingWeather.m; sourceTree = "<group>"; };
+		06EFC745193DBCFA00271669 /* TCWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWeather.h; sourceTree = "<group>"; };
+		06EFC746193DBCFA00271669 /* TCWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWeather.m; sourceTree = "<group>"; };
+		06EFC748193DBE5900271669 /* sayu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sayu.jpeg; sourceTree = "<group>"; };
+		06EFC74A193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCOpenWeatherMapAPIWrapper.h; sourceTree = "<group>"; };
+		06EFC74B193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCOpenWeatherMapAPIWrapper.m; sourceTree = "<group>"; };
+		06EFC74D193DBF6700271669 /* TCWeatherSearchAPIWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCWeatherSearchAPIWrapper.h; sourceTree = "<group>"; };
+		6EFD6E9B1E734A0D8A0C913E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E15909DB3A462A985B9BA5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06EFC6EB193D6D9000271669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BA966319401DE4003A49E8 /* CoreLocation.framework in Frameworks */,
+				06EFC6F4193D6D9000271669 /* CoreGraphics.framework in Frameworks */,
+				06EFC6F6193D6D9000271669 /* UIKit.framework in Frameworks */,
+				06EFC6F2193D6D9000271669 /* Foundation.framework in Frameworks */,
+				F706AC912A00485ABAAB86C8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EFC70C193D6D9000271669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EFC711193D6D9000271669 /* XCTest.framework in Frameworks */,
+				06EFC713193D6D9000271669 /* UIKit.framework in Frameworks */,
+				06EFC712193D6D9000271669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06902997194191AB00FDE487 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				06902998194191DC00FDE487 /* TCDrawingWeatherFactory.h */,
+				06902999194191DC00FDE487 /* TCDrawingWeatherFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		06E0C78819415CC4001C5975 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				06E0C78919415CE6001C5975 /* KFhimajiFACE */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		06E0C78919415CE6001C5975 /* KFhimajiFACE */ = {
+			isa = PBXGroup;
+			children = (
+				06E0C78A19415CE6001C5975 /* kf_readme.html */,
+				06E0C78B19415CE6001C5975 /* KFhimajiFACE.otf */,
+			);
+			path = KFhimajiFACE;
+			sourceTree = "<group>";
+		};
+		06EFC6E5193D6D9000271669 = {
+			isa = PBXGroup;
+			children = (
+				06EFC6F7193D6D9000271669 /* TangeCameraStudy */,
+				06EFC716193D6D9000271669 /* TangeCameraStudyTests */,
+				06EFC6F0193D6D9000271669 /* Frameworks */,
+				06EFC6EF193D6D9000271669 /* Products */,
+				B6E15909DB3A462A985B9BA5 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		06EFC6EF193D6D9000271669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC6EE193D6D9000271669 /* TangeCameraStudy.app */,
+				06EFC70F193D6D9000271669 /* TangeCameraStudyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06EFC6F0193D6D9000271669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06BA966219401DE4003A49E8 /* CoreLocation.framework */,
+				06EFC6F1193D6D9000271669 /* Foundation.framework */,
+				06EFC6F3193D6D9000271669 /* CoreGraphics.framework */,
+				06EFC6F5193D6D9000271669 /* UIKit.framework */,
+				06EFC710193D6D9000271669 /* XCTest.framework */,
+				6EFD6E9B1E734A0D8A0C913E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06EFC6F7193D6D9000271669 /* TangeCameraStudy */ = {
+			isa = PBXGroup;
+			children = (
+				0641E08C1947F06F004B13A8 /* aaa.JPG */,
+				06EFC743193DBCD100271669 /* Domain */,
+				06EFC729193D6E3300271669 /* Application */,
+				06902997194191AB00FDE487 /* Factory */,
+				06E0C78619415BB2001C5975 /* funa.jpg */,
+				06EFC73B193DB63100271669 /* Infrastructure */,
+				06EFC73A193D6FAB00271669 /* Presentation */,
+				06EFC709193D6D9000271669 /* Images.xcassets */,
+				06EFC6F8193D6D9000271669 /* Supporting Files */,
+			);
+			path = TangeCameraStudy;
+			sourceTree = "<group>";
+		};
+		06EFC6F8193D6D9000271669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC748193DBE5900271669 /* sayu.jpeg */,
+				06EFC700193D6D9000271669 /* TCAppDelegate.h */,
+				06EFC701193D6D9000271669 /* TCAppDelegate.m */,
+				06EFC6F9193D6D9000271669 /* TangeCameraStudy-Info.plist */,
+				06EFC6FA193D6D9000271669 /* InfoPlist.strings */,
+				06EFC6FD193D6D9000271669 /* main.m */,
+				06EFC6FF193D6D9000271669 /* TangeCameraStudy-Prefix.pch */,
+				06E0C78819415CC4001C5975 /* font */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06EFC716193D6D9000271669 /* TangeCameraStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC71C193D6D9000271669 /* TangeCameraStudyTests.m */,
+				0641E0861947EF3C004B13A8 /* IMG_0717.JPG */,
+				0641E0871947EF3C004B13A8 /* IMG_1840.JPG */,
+				06ED839A1946DCB70046EFAB /* XCTest+asynk.h */,
+				06EFC717193D6D9000271669 /* Supporting Files */,
+			);
+			path = TangeCameraStudyTests;
+			sourceTree = "<group>";
+		};
+		06EFC717193D6D9000271669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC718193D6D9000271669 /* TangeCameraStudyTests-Info.plist */,
+				06EFC719193D6D9000271669 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06EFC729193D6E3300271669 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC73F193DB75700271669 /* Dependency */,
+				06EFC72A193D6E4500271669 /* Context */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		06EFC72A193D6E4500271669 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC72E193D6EF000271669 /* TCDrawingWeather.h */,
+				06EFC72F193D6EF000271669 /* TCDrawingWeather.m */,
+				06A0BD26194435C300AB4483 /* TCTakingPictures.h */,
+				06A0BD27194435C300AB4483 /* TCTakingPictures.m */,
+				06A0BD291944411500AB4483 /* TCSavingPictures.h */,
+				06A0BD2A1944411500AB4483 /* TCSavingPictures.m */,
+			);
+			name = Context;
+			sourceTree = "<group>";
+		};
+		06EFC73A193D6FAB00271669 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC703193D6D9000271669 /* Main.storyboard */,
+				06EFC706193D6D9000271669 /* TCViewController.h */,
+				06EFC707193D6D9000271669 /* TCViewController.m */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		06EFC73B193DB63100271669 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC74A193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.h */,
+				06EFC74B193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.m */,
+				06ED837A194593DD0046EFAB /* TCAddWeatherText.h */,
+				06ED837B194593DD0046EFAB /* TCAddWeatherText.m */,
+				0641E0821946FE81004B13A8 /* TCTestApiWrapper.h */,
+				0641E0831946FE81004B13A8 /* TCTestApiWrapper.m */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		06EFC73F193DB75700271669 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC74D193DBF6700271669 /* TCWeatherSearchAPIWrapper.h */,
+				06ED837D1945943F0046EFAB /* TCAddText.h */,
+			);
+			name = Dependency;
+			sourceTree = "<group>";
+		};
+		06EFC743193DBCD100271669 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC744193DBCDC00271669 /* Model */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		06EFC744193DBCDC00271669 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06EFC745193DBCFA00271669 /* TCWeather.h */,
+				06EFC746193DBCFA00271669 /* TCWeather.m */,
+				0649011819458D5900175C4C /* TCImage.h */,
+				0649011919458D5900175C4C /* TCImage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06EFC6ED193D6D9000271669 /* TangeCameraStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EFC720193D6D9000271669 /* Build configuration list for PBXNativeTarget "TangeCameraStudy" */;
+			buildPhases = (
+				140D437106D84E53865F5DE9 /* Check Pods Manifest.lock */,
+				06EFC6EA193D6D9000271669 /* Sources */,
+				06EFC6EB193D6D9000271669 /* Frameworks */,
+				06EFC6EC193D6D9000271669 /* Resources */,
+				BBE560A29A3C4F1D9D6A38FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TangeCameraStudy;
+			productName = TangeCameraStudy;
+			productReference = 06EFC6EE193D6D9000271669 /* TangeCameraStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06EFC70E193D6D9000271669 /* TangeCameraStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EFC723193D6D9000271669 /* Build configuration list for PBXNativeTarget "TangeCameraStudyTests" */;
+			buildPhases = (
+				06EFC70B193D6D9000271669 /* Sources */,
+				06EFC70C193D6D9000271669 /* Frameworks */,
+				06EFC70D193D6D9000271669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06EFC715193D6D9000271669 /* PBXTargetDependency */,
+				06A0BD251944359300AB4483 /* PBXTargetDependency */,
+			);
+			name = TangeCameraStudyTests;
+			productName = TangeCameraStudyTests;
+			productReference = 06EFC70F193D6D9000271669 /* TangeCameraStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06EFC6E6193D6D9000271669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					06EFC6ED193D6D9000271669 = {
+						DevelopmentTeam = C3348D9AY6;
+					};
+					06EFC70E193D6D9000271669 = {
+						TestTargetID = 06EFC6ED193D6D9000271669;
+					};
+				};
+			};
+			buildConfigurationList = 06EFC6E9193D6D9000271669 /* Build configuration list for PBXProject "TangeCameraStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06EFC6E5193D6D9000271669;
+			productRefGroup = 06EFC6EF193D6D9000271669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06EFC6ED193D6D9000271669 /* TangeCameraStudy */,
+				06EFC70E193D6D9000271669 /* TangeCameraStudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06EFC6EC193D6D9000271669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641E08A1947EF3C004B13A8 /* IMG_1840.JPG in Resources */,
+				0641E08D1947F06F004B13A8 /* aaa.JPG in Resources */,
+				06EFC70A193D6D9000271669 /* Images.xcassets in Resources */,
+				06E0C78C19415CE6001C5975 /* kf_readme.html in Resources */,
+				06E0C78719415BB2001C5975 /* funa.jpg in Resources */,
+				06EFC6FC193D6D9000271669 /* InfoPlist.strings in Resources */,
+				06E0C78D19415CE6001C5975 /* KFhimajiFACE.otf in Resources */,
+				06EFC705193D6D9000271669 /* Main.storyboard in Resources */,
+				0641E0881947EF3C004B13A8 /* IMG_0717.JPG in Resources */,
+				06EFC749193DBE5900271669 /* sayu.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EFC70D193D6D9000271669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641E08B1947EF3C004B13A8 /* IMG_1840.JPG in Resources */,
+				0641E08E1947F06F004B13A8 /* aaa.JPG in Resources */,
+				0641E0891947EF3C004B13A8 /* IMG_0717.JPG in Resources */,
+				06EFC71B193D6D9000271669 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140D437106D84E53865F5DE9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE560A29A3C4F1D9D6A38FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EFC6EA193D6D9000271669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EFC74C193DBF3700271669 /* TCOpenWeatherMapAPIWrapper.m in Sources */,
+				06A0BD28194435C300AB4483 /* TCTakingPictures.m in Sources */,
+				0649011A19458D5900175C4C /* TCImage.m in Sources */,
+				06EFC730193D6EF000271669 /* TCDrawingWeather.m in Sources */,
+				06EFC708193D6D9000271669 /* TCViewController.m in Sources */,
+				06ED837C194593DD0046EFAB /* TCAddWeatherText.m in Sources */,
+				0690299A194191DC00FDE487 /* TCDrawingWeatherFactory.m in Sources */,
+				0641E0841946FE81004B13A8 /* TCTestApiWrapper.m in Sources */,
+				06EFC6FE193D6D9000271669 /* main.m in Sources */,
+				06A0BD2B1944411500AB4483 /* TCSavingPictures.m in Sources */,
+				06EFC702193D6D9000271669 /* TCAppDelegate.m in Sources */,
+				06EFC747193DBCFA00271669 /* TCWeather.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EFC70B193D6D9000271669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EFC71D193D6D9000271669 /* TangeCameraStudyTests.m in Sources */,
+				0641E0851946FE81004B13A8 /* TCTestApiWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06A0BD251944359300AB4483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06EFC6ED193D6D9000271669 /* TangeCameraStudy */;
+			targetProxy = 06A0BD241944359300AB4483 /* PBXContainerItemProxy */;
+		};
+		06EFC715193D6D9000271669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06EFC6ED193D6D9000271669 /* TangeCameraStudy */;
+			targetProxy = 06EFC714193D6D9000271669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06EFC6FA193D6D9000271669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EFC6FB193D6D9000271669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06EFC703193D6D9000271669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EFC704193D6D9000271669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06EFC719193D6D9000271669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EFC71A193D6D9000271669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06EFC71E193D6D9000271669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06EFC71F193D6D9000271669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06EFC721193D6D9000271669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E15909DB3A462A985B9BA5 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TangeCameraStudy/TangeCameraStudy-Prefix.pch";
+				INFOPLIST_FILE = "TangeCameraStudy/TangeCameraStudy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06EFC722193D6D9000271669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E15909DB3A462A985B9BA5 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TangeCameraStudy/TangeCameraStudy-Prefix.pch";
+				INFOPLIST_FILE = "TangeCameraStudy/TangeCameraStudy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06EFC724193D6D9000271669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E15909DB3A462A985B9BA5 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TangeCameraStudy.app/TangeCameraStudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TangeCameraStudy/TangeCameraStudy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TangeCameraStudyTests/TangeCameraStudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		06EFC725193D6D9000271669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TangeCameraStudy.app/TangeCameraStudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TangeCameraStudy/TangeCameraStudy-Prefix.pch";
+				INFOPLIST_FILE = "TangeCameraStudyTests/TangeCameraStudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06EFC6E9193D6D9000271669 /* Build configuration list for PBXProject "TangeCameraStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EFC71E193D6D9000271669 /* Debug */,
+				06EFC71F193D6D9000271669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EFC720193D6D9000271669 /* Build configuration list for PBXNativeTarget "TangeCameraStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EFC721193D6D9000271669 /* Debug */,
+				06EFC722193D6D9000271669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EFC723193D6D9000271669 /* Build configuration list for PBXNativeTarget "TangeCameraStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EFC724193D6D9000271669 /* Debug */,
+				06EFC725193D6D9000271669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06EFC6E6193D6D9000271669 /* Project object */;
+}
